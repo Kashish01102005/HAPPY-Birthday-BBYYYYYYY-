@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Happy Birthday 🎂</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Screen 1 -->
+<div id="screen1" class="screen active">
+    <h1>🎉 Surprise Time 🎉</h1>
+    <p>A special surprise is waiting for you...</p>
+    <button onclick="nextScreen('screen2')">Open Gift 🎁</button>
+</div>
+
+<!-- Screen 2 -->
+<div id="screen2" class="screen">
+    <h2>💌 A Birthday Love Letter 💌</h2>
+    <p>
+        Meri pyari <b>[NAME]</b>,<br><br>
+        Aaj ka din bahut special hai kyunki aaj tum is duniya me aayi thi 💖  
+        Tumhari smile meri duniya bright kar deti hai ✨  
+        Hamesha khush raho, muskurate raho 🎈
+    </p>
+    <p style="text-align:right;">— Tumhara ❤️</p>
+    <button onclick="nextScreen('screen3')">Continue to Cake 🍰</button>
+</div>
+
+<!-- Screen 3 -->
+<div id="screen3" class="screen">
+    <h2>🎂 It's Cake Time 🎂</h2>
+    <div class="cake">🍰</div>
+    <p>Click the cake to cut it!</p>
+    <button onclick="nextScreen('screen4')">Cut Cake 🎉</button>
+</div>
+
+<!-- Screen 4 -->
+<div id="screen4" class="screen">
+    <h1>🥳 Happy Birthday 🥳</h1>
+    <p>May all your dreams come true 💫</p>
+    <p>Stay happy & blessed always 💖</p>
+    <div class="hearts">❤️ 💕 💖 💘 💝</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
